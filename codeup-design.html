@@ -9,40 +9,29 @@
           integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
     <link href="https://fonts.googleapis.com/css?family=Abel|Anton" rel="stylesheet">
     <link rel="stylesheet" href="codeup-design.css"/>
-    <title>Document</title>
+    <title>Codeup Design</title>
 </head>
 <body class="m-3">
-<!--TOP BOX-->
-<div class="topbox"></div>
 
-<!--first picture-->
 
-<section>
-    <img class="first" src="img/logo.jpg"/>
-</section>
-
-<!--SECOND BOX-->
-
-<!--<div class="bottombox">-->
-    <!--<h1>codeup design</h1>-->
-    <!--<ul class="navbar">-->
-        <!--<li>SERVICES</li>-->
-        <!--<li>WORK</li>-->
-        <!--<li>BLOG</li>-->
-        <!--<li>CONTACT</li>-->
-<!---->
-    <!--</ul>-->
-<!--</div>-->
 <div class="container bottombox">
+    <div class="row">
+        <div class="col text-center logo-row">
+            <img class="logo" src="img/logo.png"/>
+        </div>
+    </div>
+
+
     <div class="row">
         <div class="col">
             <!--first header-->
             <!--<div class="bottombox">-->
-            <p>codeup design</p>
+            <p class="name">codeup design</p>
             <!--</div>-->
         </div>
     </div>
-<!--navbar-->
+
+    <!--navbar-->
     <div class="row">
         <div class="col-3">
             SERVICES
@@ -57,58 +46,60 @@
             CONTACT
         </div>
     </div>
+
     <!--second header-->
     <div class="row">
         <div class="col">
-        <h1 class="seocndheader">VISUAL DESIGN & WEB DEVELOPMENT</h1>
+            <h1 class="seocndheader">VISUAL DESIGN & WEB DEVELOPMENT</h1>
+        </div>
     </div>
-</div>
+
     <!--location-->
     <div class="row">
         <div class="col">
             <h2>FROM PARK CITY, UTAH</h2>
         </div>
     </div>
+
+
     <!--4pics-->
     <div class="row">
-        <div class="col-6">
-            <div class="red">DESIGN</div>
+        <div class="col-sm-3 col-6">
+            <div class="egg red">DESIGN</div>
         </div>
-        <div class="col-6">
-            <div class="orange">DEVELOP</div>
+        <div class="col-sm-3 col-6">
+            <div class="egg orange">DEVELOP</div>
         </div>
-    </div>
-    <div class="row">
-        <div class="col-6">
-            <div class="green">SUPPORT</div>
+        <div class="col-sm-3 col-6">
+            <div class="egg green">SUPPORT</div>
         </div>
-        <div class="col-6">
-            <div class="teal">HOST</div>
+        <div class="col-sm-3 col-6">
+            <div class="egg teal">HOST</div>
         </div>
     </div>
     <div class="row">
-        <div class="col">
+        <div class="col d-block d-sm-none">
             <div class="select"><h4>SELECTED WORK</h4></div>
         </div>
     </div>
     <div class="row">
-        <div class="col">
+        <div class="col d-block d-sm-none">
             <div class="laptop">
                 <img src="img/apple-ipad.jpg"/>
             </div>
         </div>
     </div>
     <div class="row">
-        <div class="col-6">
+        <div class="col-6 d-block d-sm-none">
             <h4>FEATURED PROJECT</h4>
         </div>
-        <div class="col-2"></div>
-        <div class="col-4">
+        <div class="col-2" d-block d-sm-none></div>
+        <div class="col-4" d-block d-sm-none>
             <div class="row">
-                <div class="col-3 smallred">D</div>
-                <div class="col-3 smallorange">D</div>
-                <div class="col-3 smallgreen">S</div>
-                <div class="col-3 smallteal">H</div>
+                <div class="col-3 smallred d-block d-sm-none">D</div>
+                <div class="col-3 smallorange d-block d-sm-none">D</div>
+                <div class="col-3 smallgreen d-block d-sm-none">S</div>
+                <div class="col-3 smallteal d-block d-sm-none">H</div>
             </div>
 
         </div>
@@ -116,13 +107,109 @@
     </div>
 
 
+    <!--"selected work" and "the last" sections - my first try-->
+    <!--<div class="row">-->
+    <!--<div class="col-sm d-none d-sm-block">-->
+    <!--<h4>SELECTED WORK</h4>-->
+    <!--</div>-->
+    <!--</div>-->
+
+    <!--<div class="row selected-work">-->
+    <!--<div class="col-md-4 col-sm-6 d-none d-sm-block">-->
+    <!--<img src="img/apple-ipad.jpg" class="work">-->
+    <!--</div>-->
+    <!--<div class="col-md-4 col-sm-6 d-none d-sm-block">-->
+    <!--<img src="img/macbook.jpg" class="work">-->
+    <!--</div>-->
+
+    <!--<div class="the-last col-md-4 d-none d-md-block">-->
+    <!--<img src="img/mobile-phone.jpg">-->
+    <!--<h4>THE ADMIN BAR AND ABSOLUTE POSITIONING</h4>-->
+    <!--<img src="img/head.jpg">-->
+    <!--<h4>NIBBLER AWESOME WEBSITE TESTING</h4>-->
+    <!--<img src="img/ipad.jpg">-->
+    <!--<h4>HOW TO GET GOOGLE TO LIKE YOU</h4>-->
+    <!--<img src="img/twitter.png">-->
+    <!--<h6>LAST TWEET</h6>-->
+    <!--<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Consequatur, corporis dignissimos excepturi, id-->
+    <!--iusto maxime non odit, omnis porro quas quasi quos repellat veritatis vero voluptas! Eum quo vel-->
+    <!--vitae.</p>-->
+    <!--</div>-->
+
+    <!--<div class="col-md-4 col-sm-6 d-none d-sm-block">-->
+    <!--<img src="img/man.jpg" class="work">-->
+    <!--</div>-->
+    <!--<div class="col-md-4 col-sm-6 d-none d-sm-block">-->
+    <!--<img src="img/security.jpg" class="work">-->
+    <!--</div>-->
+    <!--</div>-->
+
+    <!--the other way to create "selected work" section - "last section" disappears on displays smaller than medium-->
+    <div class="row">
+        <div class="col-md-8 d-none d-sm-block">
+            <h6>SELECTED WORK</h6>
+        </div>
+        <div class="col-md-4 d-none d-md-block">
+            <h6>THE LAST</h6>
+        </div>
+    </div>
+    <div class="row">
+        <div class="col-md-8 col-sm-12 d-none d-sm-block">
+            <div class="row">
+                <div class="col-6">
+                    <img class="selected-img" src="img/apple-ipad.jpg">
+                </div>
+                <div class="col-6">
+                    <img class="selected-img" src="img/macbook.jpg">
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-6">
+                    <img class="selected-img" src="img/man.jpg">
+                </div>
+                <div class="col-6">
+                    <img class="selected-img" src="img/security.jpg">
+                </div>
+            </div>
+        </div>
+        <div class="col-md-4 d-none d-md-block">
+            <div class="row">
+                <div class="col-3">
+                    <img class="selected-img" src="img/mobile-phone.jpg">
+                </div>
+                <div class="col-9">
+                    <h4>THE ADMIN BAR AND ABSOLUTE POSITIONING</h4>
+                </div>
+                <div class="col-3">
+                    <img class="selected-img" src="img/head.jpg">
+                </div>
+                <div class="col-9">
+                    <h4>NIBBLER AWESOME WEBSITE TESTING</h4>
+                </div>
+                <div class="col-3">
+                    <img class="selected-img" src="img/ipad.jpg">
+                </div>
+                <div class="col-9">
+                    <h4>HOW TO GET GOOGLE TO LIKE YOU</h4>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-2">
+                    <img class="selected-img" src="img/twitter.png">
+                </div>
+                <div class="col-10">
+                    <h6>LAST TWEET</h6>
+                </div>
+            </div>
+            <div class="row">
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ab accusamus animi aspernatur doloribus eos
+                    est ex exercitationem ipsam labore maxime modi necessitatibus odit, placeat saepe sunt suscipit ut
+                    vitae? Ipsum.</p>
+            </div>
+        </div>
+    </div>
+
+
 </div>
-
-
-
-
-
-
-
 </body>
 </html>

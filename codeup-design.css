@@ -1,21 +1,47 @@
 /*font-family: 'Abel', sans-serif;*/
 /*font-family: 'Anton', sans-serif;*/
 
-
 /*body {*/
-    /*margin: 3em;*/
+/*margin: 3em;*/
 /*}*/
-.first {
-    border-radius: 100%;
-    margin-top: -100px;
-    margin-left: 400px;
+
+.logo {
+    /*position: absolute;*/
+    /*margin: auto 0;*/
+
+}
+
+.logo-row {
+    /*background:*/
+    /*!* On "top" *!*/
+    /*repeating-linear-gradient(*/
+    /*transparent,*/
+    /*!*transparent 10px,*!*/
+    /*#ccc 33%*/
+    /*!*#ccc 20px*!*/
+    /*);*/
+
+    background: linear-gradient(#000 50%, transparent 50%);
+
 }
 
 .topbox {
-
-    border: 1px solid #f0f0f0;
     background-color: #f0f0f0;
-    padding: 57px;
+    padding: 0;
+}
+
+.topbox-inner {
+    width: 100%;
+    height: 700px;
+    display: inline-flex;
+}
+
+.white-strip {
+    background-color: white;
+    height: 300px;
+    width: 100%;
+    margin-bottom: auto;
+    margin-top: auTO;
 }
 
 .bottombox {
@@ -23,22 +49,28 @@
 
 }
 
-p {
+name {
     /*font-weight: lighter;*/
     font-size: 57px;
     text-align: center;
-    font-family: 'Abel' , sans-serif;
+    font-family: 'Abel', sans-serif;
 }
 
 .secondheader {
-    font-family: 'Anton' , sans-serif;
+    font-family: 'Anton', sans-serif;
 }
-.red {
-    background-color: #E6563B;
+
+.egg {
     border: 8px solid white;
-    border-radius: 100%;
     font-size: 50px;
     text-align: center;
+    border-radius: 100%;
+    width: 100%;
+}
+
+.red {
+    background-color: #E6563B;
+
     color: white;
     padding: 82px;
 
@@ -86,7 +118,7 @@ p {
     padding: 25px;
 }
 
-.smallorange  {
+.smallorange {
     background-color: #EB9D3A;
     border-radius: 100%;
     font-size: 10px;
@@ -110,14 +142,27 @@ p {
     text-align: center;
     padding: 25px;
 }
+
+.selected-work img.work {
+    width: 100%;
+
+}
+
+.the-last img {
+    width: 50px;
+}
+
+.selected-img {
+    width: 100%;
+}
+
 /*.navbar {*/
-    /*text-align: center;*/
-    /*list-style-type: none;*/
-    display: inline-block;
+/*text-align: center;*/
+/*list-style-type: none;*/
+/*display: inline-block;*/
 /*}*/
 /**/
 /*li {*/
-    /*display: inline-block;*/
+/*display: inline-block;*/
 /*}*/
 
-.
