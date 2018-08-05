@@ -83,11 +83,20 @@
 .egg {
     border: 8px solid white;
     color: white;
-    font-size: 50px;
+    font-size: 2em;
+    /*sm - 1em*/
     text-align: center;
     border-radius: 100%;
     width: 100%;
-    padding: 82px 0;
+    font-family: 'Anton', sans-serif;
+}
+
+/*https://stackoverflow.com/a/21538018/504845 - makes our circles*/
+.egg:before {
+    content: "";
+    padding: 50% 0;
+    vertical-align: middle;
+    display: inline-block;
 }
 
 .red {
@@ -157,4 +166,11 @@
 /*li {*/
 /*display: inline-block;*/
 /*}*/
+
+/*need to correct font size on small display because DEVELOP and SUPPORT did't fit our circles */
+@media screen and (min-width:580px) and (max-width:767px) {
+    .egg {
+        font-size: 1em;
+    }
+}
 
