@@ -5,6 +5,7 @@
 /*margin: 3em;*/
 /*}*/
 
+/*trying to put logo and that white stripe on top*/
 .logo {
     /*position: absolute;*/
     /*margin: auto 0;*/
@@ -41,8 +42,11 @@
     height: 300px;
     width: 100%;
     margin-bottom: auto;
-    margin-top: auTO;
+    margin-top: auto;
 }
+
+/**/
+
 
 .bottombox {
     background-color: #f0f0f0;
