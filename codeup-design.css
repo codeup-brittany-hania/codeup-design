@@ -185,8 +185,7 @@ svg {
 }
 
 hr {
-    margin-top: 60px;
-    margin-bottom: 40px;
+    margin-top: 40px;
 }
 
 
@@ -205,6 +204,5 @@ hr {
     .egg {
         font-size: 1em;
     }
-
 }
 
