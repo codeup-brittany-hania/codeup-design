@@ -6,47 +6,44 @@
 /*}*/
 
 /*trying to put logo and that white stripe on top*/
+header {
+    height: 400px;
+    padding-top: 275px;
+    background-color: #f0f0f0;
+    padding-top: 30%;
+}
+
+.topbox-gray {
+    /*height: 150px;*/
+}
+
+.white-stripe {
+    background-color: white;
+    height: 250px;
+    width: 100%;
+}
+
 .logo {
     /*position: absolute;*/
     /*margin: auto 0;*/
 
 }
 
-.logo-row {
-    /*background:*/
-    /*!* On "top" *!*/
-    /*repeating-linear-gradient(*/
-    /*transparent,*/
-    /*!*transparent 10px,*!*/
-    /*#ccc 33%*/
-    /*!*#ccc 20px*!*/
-    /*);*/
+/*.logo-row {*/
+/*!*background:*!*/
+/*!*!* On "top" *!*!*/
+/*!*repeating-linear-gradient(*!*/
+/*!*transparent,*!*/
+/*!*!*transparent 10px,*!*!*/
+/*!*#ccc 33%*!*/
+/*!*!*#ccc 20px*!*!*/
+/*!*);*!*/
 
-    background: linear-gradient(#000 50%, transparent 50%);
+/*background: linear-gradient(#000 50%, transparent 50%);*/
 
-}
-
-.topbox {
-    background-color: #f0f0f0;
-    padding: 0;
-}
-
-.topbox-inner {
-    width: 100%;
-    height: 700px;
-    display: inline-flex;
-}
-
-.white-strip {
-    background-color: white;
-    height: 300px;
-    width: 100%;
-    margin-bottom: auto;
-    margin-top: auto;
-}
+/*}*/
 
 /**/
-
 
 .bottombox {
     background-color: #f0f0f0;
@@ -172,7 +169,7 @@
 /*}*/
 
 /*need to correct font size on small display because DEVELOP and SUPPORT did't fit our circles */
-@media screen and (min-width:580px) and (max-width:767px) {
+@media screen and (min-width: 580px) and (max-width: 767px) {
     .egg {
         font-size: 1em;
     }
