@@ -36,16 +36,16 @@
 
         <!--navbar-->
         <div class="row navigation">
-            <div class="col-3">
+            <div class="col-3 d-block d-sm-none small-nav">
                 SERVICES
             </div>
-            <div class="col-3">
+            <div class="col-3 d-block d-sm-none">
                 WORK
             </div>
-            <div class="col-3">
+            <div class="col-3 d-block d-sm-none">
                 BLOG
             </div>
-            <div class="col-3">
+            <div class="col-3 d-block d-sm-none">
                 CONTACT
             </div>
         </div>
@@ -85,27 +85,45 @@
         <!--"selected work" section - visible only on xs size-->
         <div class="row">
             <div class="col d-block d-sm-none">
-                <div class="select"><h4>SELECTED WORK</h4></div>
+                <div class="select "><h4 class="text-center xsmall-h">SELECTED WORK</h4></div>
             </div>
         </div>
         <div class="row">
             <div class="col d-block d-sm-none">
                 <div>
-                    <img class="laptop" src="img/apple-ipad.jpg"/>
+                    <img class="laptop end-small" src="img/apple-ipad.jpg"/>
                 </div>
             </div>
         </div>
 
-        <div class="row">
-            <div class="col-6 d-block d-sm-none">
-                <h4>FEATURED PROJECT</h4>
+        <div class="row end-small">
+            <div class="col-7 d-block d-sm-none">
+                <h4 class="end-small">FEATURED PROJECT</h4>
             </div>
-            <div class="col-6" d-block d-sm-none>
+            <div class="col-5" d-block d-sm-none>
                 <div class="row">
-                    <div class="small-circle col-3 smallred d-block d-sm-none">D</div>
-                    <div class="small-circle col-3 smallorange d-block d-sm-none">D</div>
-                    <div class="small-circle col-3 smallgreen d-block d-sm-none">S</div>
-                    <div class="small-circle col-3 smallteal d-block d-sm-none">H</div>
+                    <span class="icons">
+                                    <svg height="40px" width="40px" id="red_d" class="small-icons mt-lg-2">
+                                        <circle cx="20" cy="20" r="20px" fill="#E6563B"/>
+                                        <text x="15" y="28" fill="black" class="end-text">D</text>
+                                        Sorry, your browser does not support inline SVG.
+                                    </svg>
+                                        <svg height="40px" width="40px" id="red_d" class="small-icons mt-lg-2">
+                                        <circle cx="20" cy="20" r="20px" fill="#EB9D3A"/>
+                                        <text x="15" y="28" fill="black" class="end-text">D</text>
+                                        Sorry, your browser does not support inline SVG.
+                                    </svg>
+                                        <svg height="40px" width="40px" id="red_d" class="small-icons mt-lg-2">
+                                        <circle cx="20" cy="20" r="20px" fill="#7CB06C"/>
+                                        <text x="15" y="28" fill="black" class="end-text">S</text>
+                                        Sorry, your browser does not support inline SVG.
+                                    </svg>
+                                        <svg height="40px" width="40px" id="red_d" class="small-icons mt-lg-2">
+                                        <circle cx="20" cy="20" r="20px" fill="#00ABA9"/>
+                                        <text x="15" y="28" fill="black" class="end-text">H</text>
+                                        Sorry, your browser does not support inline SVG.
+                                    </svg>
+                                    </span>
                 </div>
             </div>
 
@@ -346,7 +364,8 @@
                     </div>
                 </div>
                 <div class="row">
-                    <p class="last-p">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ab accusamus animi aspernatur doloribus
+                    <p class="last-p">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ab accusamus animi
+                        aspernatur doloribus
                         eos
                         est ex exercitationem ipsam labore maxime modi necessitatibus odit, placeat saepe sunt suscipit
                         ut

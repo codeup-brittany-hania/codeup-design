@@ -188,7 +188,6 @@ hr {
     margin-top: 40px;
 }
 
-
 /*.navbar {*/
 /*text-align: center;*/
 /*list-style-type: none;*/
@@ -206,3 +205,53 @@ hr {
     }
 }
 
+@media screen and (max-width: 580px) {
+    hr {
+        display: none;
+    }
+
+    .xsmall-h {
+        margin-top: 190px;
+        text-align: center;
+        margin-bottom: 60px;
+        font-size: 30px;
+        font-family: Abel;
+    }
+
+    .end-small {
+        font-family: Abel;
+        font-size: 30px;
+        margin-top: 10px;
+    }
+
+    .laptop {
+        border: 10px solid #e6e6e6;
+        border-radius: 5px;
+    }
+
+    .end-text {
+        font-size: 20px;
+
+    }
+
+    .small-icons {
+        margin-left: 5px;
+    }
+
+    .small-nav {
+
+        /*margin-right: 5px;*/
+    }
+
+    .navigation {
+        font-size: 15px;
+        margin-bottom: 100px;
+    }
+
+    .location {
+        margin-top: 50px;
+        margin-bottom: 50px;
+    }
+
+
+}
