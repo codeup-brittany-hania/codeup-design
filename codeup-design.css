@@ -5,45 +5,12 @@
 /*margin: 3em;*/
 /*}*/
 
-/*trying to put logo and that white stripe on top*/
-header {
-    height: 400px;
-    padding-top: 275px;
-    background-color: #f0f0f0;
-    padding-top: 30%;
+.logo-position {
+    background: linear-gradient(to top, #f0f0f0 25%, transparent 0),
+    linear-gradient(to bottom, #f0f0f0 25%, transparent 0),
+    white;
+    text-align: center;
 }
-
-.topbox-gray {
-    /*height: 150px;*/
-}
-
-.white-stripe {
-    background-color: white;
-    height: 250px;
-    width: 100%;
-}
-
-.logo {
-    /*position: absolute;*/
-    /*margin: auto 0;*/
-
-}
-
-/*.logo-row {*/
-/*!*background:*!*/
-/*!*!* On "top" *!*!*/
-/*!*repeating-linear-gradient(*!*/
-/*!*transparent,*!*/
-/*!*!*transparent 10px,*!*!*/
-/*!*#ccc 33%*!*/
-/*!*!*#ccc 20px*!*!*/
-/*!*);*!*/
-
-/*background: linear-gradient(#000 50%, transparent 50%);*/
-
-/*}*/
-
-/**/
 
 .bottombox {
     background-color: #f0f0f0;
