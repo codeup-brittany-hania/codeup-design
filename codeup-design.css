@@ -7,6 +7,10 @@
 .main-c {
 }
 
+.logo-img {
+    width: 50%;
+}
+
 .logo-position {
     background: linear-gradient(to top, #f0f0f0 25%, transparent 0),
     linear-gradient(to bottom, #f0f0f0 25%, transparent 0),
@@ -228,6 +232,13 @@ hr {
         margin-top: 20px;
         margin-bottom: 30px;
     }
+
+    .logo-img {
+         height: 105px;
+        width: 105px;
+
+}
+
 }
 
 @media screen and (max-width: 580px) {
