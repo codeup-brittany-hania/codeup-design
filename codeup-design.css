@@ -4,6 +4,8 @@
 /*body {*/
 /*margin: 3em;*/
 /*}*/
+.main-c {
+}
 
 .logo-position {
     background: linear-gradient(to top, #f0f0f0 25%, transparent 0),
@@ -203,6 +205,29 @@ hr {
     .egg {
         font-size: 1em;
     }
+
+    .work-h {
+        text-align: center;
+        font-family: Abel;
+        font-size: 15px;
+        margin-top: -20px;
+        margin-bottom: 15px;
+
+    }
+
+    .name {
+        font-size: 30px;
+    }
+
+    .secondheader {
+        font-size: 40px;
+    }
+
+    .location {
+        font-size: 30px;
+        margin-top: 20px;
+        margin-bottom: 30px;
+    }
 }
 
 @media screen and (max-width: 580px) {
@@ -252,6 +277,5 @@ hr {
         margin-top: 50px;
         margin-bottom: 50px;
     }
-
 
 }
