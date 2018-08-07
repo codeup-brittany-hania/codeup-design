@@ -240,7 +240,7 @@ hr {
 
     }
    .row.navigation {
-       margin-top: -125px;
+       margin-top: -140px;
 
    }
     .smallnav {
@@ -248,16 +248,42 @@ hr {
     }
 
     .smallnav.moveleft {
+
         margin-left: -80px;
     }
 
     .smallnav.moveright {
         margin-right: -80px;
     }
+    .one {
+        font-size: 15px;
+        /*margin-right: -816px;*/
+        margin-left: -10px;
+
+    }
+    .two {
+        font-size: 15px;
+        /*margin-right: -732px;*/
+        margin-left: 0;
+
+    }
+    .three {
+        font-size: 15px;
+        /*margin-right: -633px;*/
+        margin-right: -240px;
+
+    }
+    .four {
+        font-size: 15px;
+        /*margin-right: -544px;*/
+        margin-right: -240px;
+
+    }
+
 
 
 }
-@media screen and (min-width: 700px) and (max-width: 900px) {
+@media screen and (min-width: 700px) and (max-width: 1200px) {
     .logo-img {
         height: 105px;
         width: 105px;
@@ -276,7 +302,7 @@ hr {
     }
 
     .row.navigation {
-        margin-top: -60px;
+        margin-top: -78px;
     }
    .secondheader {
        margin-top: 60px;
@@ -285,7 +311,29 @@ hr {
        margin-right: -260px;
    }
 
+   .one {
+       font-size: 12px;
+       margin-right: -816px;
+
+   }
+    .two {
+        font-size: 12px;
+        margin-right: -732px;
+
+    }
+    .three {
+        font-size: 12px;
+        margin-right: -633px;
+
+    }
+    .four {
+        font-size: 12px;
+        margin-right: -544px;
+
+    }
+
 }
+
 
 
 
@@ -338,6 +386,16 @@ hr {
     }
     h1 {
 
+    }
+
+    @media screen and (min-width: 1200px) and (max-width: 5000px) {
+        .logo-img {
+            height: 105px;
+            width: 105px;
+            margin-left: -500px;
+
+        }
+        .
     }
 
 }
