@@ -4,6 +4,12 @@
 /*body {*/
 /*margin: 3em;*/
 /*}*/
+.main-c {
+}
+
+.logo-img {
+    width: 50%;
+}
 
 .logo-position {
     background: linear-gradient(to top, #f0f0f0 25%, transparent 0),
@@ -188,7 +194,6 @@ hr {
     margin-top: 40px;
 }
 
-
 /*.navbar {*/
 /*text-align: center;*/
 /*list-style-type: none;*/
@@ -200,9 +205,139 @@ hr {
 /*}*/
 
 /*need to correct font size on small display because DEVELOP and SUPPORT did't fit our circles */
-@media screen and (min-width: 580px) and (max-width: 767px) {
+@media screen and (min-width: 580px) and (max-width: 700px) {
     .egg {
         font-size: 1em;
     }
+
+    .work-h {
+        text-align: center;
+        font-family: Abel;
+        font-size: 15px;
+        margin-top: -20px;
+        margin-bottom: 15px;
+
+    }
+
+    .name {
+        font-size: 30px;
+    }
+
+    .secondheader {
+        font-size: 40px;
+        margin-top: 132px;
+    }
+
+    .location {
+        font-size: 30px;
+        margin-top: 20px;
+        margin-bottom: 30px;
+    }
+
+    .logo-img {
+        height: 105px;
+        width: 105px;
+
+    }
+   .row.navigation {
+       margin-top: -125px;
+
+   }
+    .smallnav {
+        font-size: 15px;
+    }
+
+    .smallnav.moveleft {
+        margin-left: -80px;
+    }
+
+    .smallnav.moveright {
+        margin-right: -80px;
+    }
+
+
+}
+@media screen and (min-width: 700px) and (max-width: 900px) {
+    .logo-img {
+        height: 105px;
+        width: 105px;
+        margin-left: -500px;
+
+    }
+
+    .name {
+        font-size: 30px;
+        margin-top: -75px;
+        margin-left: -210px;
+    }
+
+    .smallnav {
+        font-size: 10px;
+    }
+
+    .row.navigation {
+        margin-top: -60px;
+    }
+   .secondheader {
+       margin-top: 60px;
+   }
+   .padfix {
+       margin-right: -260px;
+   }
+
 }
 
+
+
+@media screen and (max-width: 580px) {
+    hr {
+        display: none;
+    }
+
+    .xsmall-h {
+        margin-top: 190px;
+        text-align: center;
+        margin-bottom: 60px;
+        font-size: 30px;
+        font-family: Abel;
+    }
+
+    .end-small {
+        font-family: Abel;
+        font-size: 30px;
+        margin-top: 10px;
+    }
+
+    .laptop {
+        border: 10px solid #e6e6e6;
+        border-radius: 5px;
+    }
+
+    .end-text {
+        font-size: 20px;
+
+    }
+
+    .small-icons {
+        margin-left: 5px;
+    }
+
+    .small-nav {
+
+        /*margin-right: 5px;*/
+    }
+
+    .navigation {
+        font-size: 15px;
+        margin-bottom: 100px;
+    }
+
+    .location {
+        margin-top: 50px;
+        margin-bottom: 50px;
+    }
+    h1 {
+
+    }
+
+}
