@@ -1,12 +1,3 @@
-/*font-family: 'Abel', sans-serif;*/
-/*font-family: 'Anton', sans-serif;*/
-
-/*body {*/
-/*margin: 3em;*/
-/*}*/
-.main-c {
-}
-
 .logo-img {
     width: 50%;
 }
@@ -58,7 +49,6 @@
     border: 8px solid white;
     color: white;
     font-size: 2em;
-    /*sm - 1em*/
     text-align: center;
     border-radius: 100%;
     width: 100%;
@@ -194,18 +184,9 @@ hr {
     margin-top: 40px;
 }
 
-/*.navbar {*/
-/*text-align: center;*/
-/*list-style-type: none;*/
-/*display: inline-block;*/
-/*}*/
-/**/
-/*li {*/
-/*display: inline-block;*/
-/*}*/
 
 /*need to correct font size on small display because DEVELOP and SUPPORT did't fit our circles */
-@media screen and (min-width: 580px) and (max-width: 700px) {
+@media screen and (min-width: 576px) and (max-width: 768px) {
     .egg {
         font-size: 1em;
     }
@@ -239,10 +220,12 @@ hr {
         width: 105px;
 
     }
-   .row.navigation {
-       margin-top: -140px;
 
-   }
+    .row.navigation {
+        margin-top: -140px;
+
+    }
+
     .smallnav {
         font-size: 15px;
     }
@@ -255,24 +238,28 @@ hr {
     .smallnav.moveright {
         margin-right: -80px;
     }
+
     .one {
         font-size: 15px;
         /*margin-right: -816px;*/
         margin-left: -10px;
 
     }
+
     .two {
         font-size: 15px;
         /*margin-right: -732px;*/
         margin-left: 0;
 
     }
+
     .three {
         font-size: 15px;
         /*margin-right: -633px;*/
         margin-right: -240px;
 
     }
+
     .four {
         font-size: 15px;
         /*margin-right: -544px;*/
@@ -280,10 +267,9 @@ hr {
 
     }
 
-
-
 }
-@media screen and (min-width: 700px) and (max-width: 1200px) {
+
+@media screen and (min-width: 768px) {
     .logo-img {
         height: 105px;
         width: 105px;
@@ -304,28 +290,33 @@ hr {
     .row.navigation {
         margin-top: -78px;
     }
-   .secondheader {
-       margin-top: 60px;
-   }
-   .padfix {
-       margin-right: -260px;
-   }
 
-   .one {
-       font-size: 12px;
-       margin-right: -816px;
+    .secondheader {
+        margin-top: 60px;
+    }
 
-   }
+    .padfix {
+        margin-right: -260px;
+    }
+
+    .one {
+        font-size: 12px;
+        margin-right: -816px;
+
+    }
+
     .two {
         font-size: 12px;
         margin-right: -732px;
 
     }
+
     .three {
         font-size: 12px;
         margin-right: -633px;
 
     }
+
     .four {
         font-size: 12px;
         margin-right: -544px;
@@ -334,10 +325,7 @@ hr {
 
 }
 
-
-
-
-@media screen and (max-width: 580px) {
+@media screen and (max-width: 576px) {
     hr {
         display: none;
     }
@@ -371,12 +359,10 @@ hr {
     }
 
     .small-nav {
-
         /*margin-right: 5px;*/
     }
 
     .navigation {
-        font-size: 15px;
         margin-bottom: 100px;
     }
 
@@ -384,18 +370,9 @@ hr {
         margin-top: 50px;
         margin-bottom: 50px;
     }
-    h1 {
 
-    }
-
-    @media screen and (min-width: 1200px) and (max-width: 5000px) {
-        .logo-img {
-            height: 105px;
-            width: 105px;
-            margin-left: -500px;
-
-        }
-        .
+    .one, .two, .three, .four {
+        font-size: 15px;
     }
 
 }
